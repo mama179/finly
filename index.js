@@ -11,7 +11,7 @@ app.get('/contact', (req, res) => {
     res.render('index', { message: 'The Contact Page' });
 });
 app.get('/about', (req, res) => {
-    res.render('index', { message: 'The About Page' });
+    res.render('index', { message: 'The About page' });
 });
 app.get('*', (req, res) => {
     res.status(404).render('index', { message: 'Not Found' });
