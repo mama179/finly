@@ -8,10 +8,10 @@ app.get('/', (req, res) => {
     res.render('index', { message: 'Hello From Node.js' });
 });
 app.get('/contact', (req, res) => {
-    res.render('index', { message: 'The Contact Page' });
+    res.render('index', { message: 'The contact page' });
 });
 app.get('/about', (req, res) => {
-    res.render('index', { message: 'The About page' });
+    res.render('index', { message: 'The about page' });
 });
 app.get('*', (req, res) => {
     res.status(404).render('index', { message: 'Not Found' });
